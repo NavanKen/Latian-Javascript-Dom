@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylenavbar.css" />
+    <style>
+      .domhighlight {
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .highlight {
+        background-color: green;
+        color: white;
+        padding: 5px;
+        margin: 5px 0;
+        font-weight: bold;
+      }
+      .highlighted {
+        color: white;
+        font-weight: bold;
+        background-color: tomato;
+        margin: 5px;
+      }
+
+      .bg {
+        background-color: green;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Latihan Javascript DOM</h3>
+    <p class="paragraph">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nihil
+      quidem numquam?
+    </p>
+    <p class="paragraph">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nihil
+      quidem numquam?
+    </p>
+
+    <form action="">
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="data" value="Masukkan Nama" />
+    </form>
+    <h2>TagName Test</h2>
+    <h2>TagName Test</h2>
+    <button id="btn-hg">Highligh Input</button>
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <button id="divHighlighted">highligh div</button>
+    <br />
+
+    <!-- Dom Api -->
+    <div class="container">
+      <h3>Contoh Menambahkan Elemen Baru</h3>
+      <p>Ini adalah paragraph asli dalam container</p>
+    </div>
+    <div id="container">
+      <p id="para1">Ini adalah Paragraf 1</p>
+      <p id="para2">Ini adalah Paragraf 2</p>
+      <p id="para3">Ini adalah Paragraf 3</p>
+    </div>
+    <button onclick="hapus()">Hapus Paragraf Kedua</button>
+
+    <h1>Ubah Warna Web</h1>
+    <label for="">Warna Latar :</label>
+    <input type="color" id="bg-color" />
+    <label for="">Warna Teks</label>
+    <input type="color" id="text-color" />
+    <br />
+    <br />
+    <br />
+    <a href="../index.html">Back to home</a>
+    <script src="../script.js"></script>
+  </body>
+</html>
